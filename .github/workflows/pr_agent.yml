@@ -21,5 +21,5 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.Workflow_PAT }}
             GOOGLE_AI_STUDIO.GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-            CONFIG.MODEL: "gemini/gemini-1.5-pro-latest"
+            CONFIG.MODEL: "gemini/gemini-2.0-flash-thinking-exp-01-21"
             CONFIG.FALLBACK_MODELS: '["gemini/gemini-1.5-flash"]'
